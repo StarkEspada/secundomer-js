@@ -1,0 +1,219 @@
+body{
+	margin: 0;
+}
+
+.container-secundomer{
+	width: 500px;
+	height: 600px;
+	margin: auto;
+	margin-top: 200px;
+}
+.reset-background{
+    width: 185px;
+    height: 200px;
+    background: #ff002fc7;
+    margin-left: 860px;
+    margin-top: -230px;
+}
+.box-start{
+	width: 140px;
+    height: 30px;
+    transform: rotate(48deg);
+    margin-top: 68px;
+    margin-left: 360px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.start{
+    width: 136px;
+    height: 45px;
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 50px;
+    background: #a6aaa75c;
+    cursor: pointer;
+}
+.start-text{
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    background: #484748;
+    margin-top: 92px;
+    margin-left: 339px;
+    transform: rotate(49deg);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 33px;
+}
+.box-stop{
+    width: 142px;
+    height: 31px;
+    transform: rotate(-49deg);
+    margin-top: 63px;
+    margin-left: 0px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.stop{
+	width: 136px;
+    height: 45px;
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 50px;
+    background: #a6aaa75c;
+    cursor: pointer;
+}
+.stop-text{
+   	width: 130px;
+    height: 30px;
+    position: absolute;
+    background: #484748;
+    transform: rotate(-50deg);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 33px;
+    margin-top: 90px;
+    margin-left: 27px;
+}
+.box-lap-save{
+    width: 154px;
+    height: 37px;
+    margin-top: -8px;
+    margin-left: 174px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.lap-save{
+	width: 150px;
+    height: 45px;
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 50px;
+    background: #a6aaa75c;
+    cursor: pointer;
+}
+.lap-save-text{
+    width: 130px;
+    height: 30px;
+    position: absolute;
+    background: #484748;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 33px;
+    margin-top: 35px;
+    margin-left: 185px;
+}
+.reset{
+	width: 145px;
+    height: 75px;
+    position: absolute;
+    margin-top: 475px;
+    margin-left: 175px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 45px;
+    cursor: pointer;
+}
+.reset-text{
+	width: 100px;
+	height: 40px;
+	border: 2px solid black;
+	position: absolute;
+}
+.screen-secundomer{
+    width: 268px;
+    height: 124px;
+    border: 2px solid black;
+    margin-top: 215px;
+    margin-left: 114px;
+    position: absolute;
+    border-radius: 5px;
+    background: #8080806b;
+}
+.minutes{
+ 	width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 55px;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: top;
+    margin-left: 13px;
+    margin-top: 5px;
+}
+.seconds{
+	width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 55px;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+.milliseconds{
+	width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 55px;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+.colon-one{
+    width: 20px;
+    height: 50px;
+    display: inline-block;
+    font-size: 70px;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: top;
+    margin-top: 10px;
+
+}
+.colon-two{
+    width: 20px;
+    height: 50px;
+    display: inline-block;
+    font-size: 70px;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: top;
+    margin-top: 10px;
+
+}
+.lap-data{
+	width: 267px;
+    height: 55px;
+    margin-top: 3px;
+}
+.interval-timer{
+    width: 60px;
+    height: 14px;
+    display: inline-block;
+    border: 2px solid black;
+    vertical-align: top;
+    margin-left: 2px;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.info-lap{
+	width: 55px;
+    height: 25px;
+    position: absolute;
+    background: #141414;
+    color: white;
+    margin-left: 221px;
+    margin-top: 162px;
+    text-align: center;
+    font-size: 41px;
+    line-height: 24px;
+}
